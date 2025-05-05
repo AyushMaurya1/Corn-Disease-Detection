@@ -5,7 +5,7 @@ This project implements a **Convolutional Neural Network (CNN)** to classify cor
 
 - Data balancing
 - Model training and evaluation
-- Visualization techniques (Grad-CAM, ROC curves, confusion matrices)
+- Visualization techniques (ROC curves, confusion matrices)
 
 ---
 
