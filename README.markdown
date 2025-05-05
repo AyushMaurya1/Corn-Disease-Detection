@@ -42,7 +42,6 @@ The project is organized into modular functions:
 - **build_model**: Constructs a CNN with configurable hyperparameters.
 - **train_model**: Trains the CNN with early stopping to prevent overfitting.
 - **plot_training_metrics**: Plots training and validation accuracy/loss.
-- **grad_cam**: Generates **Grad-CAM** heatmaps to visualize important image regions.
 - **optimize_model**: Optimizes CNN hyperparameters using a Genetic Algorithm.
 - **test_model**: Evaluates the model and generates a confusion matrix.
 - **evaluate_model**: Produces classification reports and confusion matrices.
@@ -91,7 +90,6 @@ Follow these steps to run the project:
   - ROC curves
   - Per-class accuracy
 - **Visualizations**:
-  - **Grad-CAM**: Highlights regions of interest
   - **Training/Validation Plots**: Accuracy and loss over epochs
   - **Actual vs. Predicted**: Compares predictions for sample images
 
@@ -101,7 +99,6 @@ Follow these steps to run the project:
 - The **initial model** is trained and evaluated, followed by GA optimization.
 - The **final optimized model** typically achieves higher validation accuracy (refer to `confusion_matrix.png` and classification report).
 - **ROC curves** and **per-class accuracy** plots provide detailed performance insights.
-- **Grad-CAM** visualizations highlight critical regions in sample images.
 
 ---
 
@@ -119,6 +116,6 @@ This project is licensed under the **MIT License**.
 ---
 
 ## Acknowledgments
-- **Dataset**: [Specify source if known, e.g., Kaggle, PlantVillage, etc.]
+- **Dataset**: [Kaggle's PlantVillage Dataset]
 - **Libraries**: Built using **TensorFlow**, **DEAP**, and **OpenCV**.
 - **Community**: Thanks to open-source contributors for tools and documentation.
